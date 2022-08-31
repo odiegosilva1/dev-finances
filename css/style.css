@@ -4,6 +4,7 @@
     --green: #49AA26;
     --light-green: #3dd705;
     --red: #e92929;
+    --ligth-grey: #f0f2f5;
 
 }
 
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-    background: #f0f2f5;
+    background: var(--ligth-grey);
     font-family:'Poppins', sans-serif
 }
 
@@ -49,9 +50,16 @@ h2 {
 }
 
 /* Links & Buttons ===================== */
+
+.input-group.actions .button,
+.input-group.actions button {
+    width: 48%;
+}
+
 a {
-    color: var(--green);
+    color: var(--red);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
@@ -64,7 +72,7 @@ button {
 
     border: none;
 
-    color: white;
+    color: rgb(238, 229, 229);
     background: var(--green);
 
     padding: 0;
@@ -95,10 +103,16 @@ button:hover {
     justify-content: center;
 
     opacity: 0.6;
+
+    
 }
 
 .button.cancel:hover {
+    cursor: pointer;
+
     opacity: 1;
+    
+    
 }
 
 /* Header ===================== */
@@ -241,6 +255,7 @@ td.expense {
 .modal {
     background: #F0F2f5;
     padding: 2.4rem;
+   
     
 }
 
@@ -251,6 +266,36 @@ td.expense {
     
 }
 
+#form h2 {
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+
+    padding: .8rem;
+
+    width: 100%;
+
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group small {
+    opacity: 0.4;
+
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 /* Footer ===================== */
 footer {
@@ -260,6 +305,7 @@ footer {
 
     opacity: 0.6;
 }
+
 
 
 /* Responsive ===================== */
