@@ -227,12 +227,11 @@ td.expense {
 }
 
 
-
 /* Modal ===================== */
 
 .modal-overlay {
     width: 100%;
-    height: 100%;ERWLKXCA: 346NJH 64WOJWR;QW4U185enter;
+    height: 100%;
     justify-content: center;
 
     opacity: 0;
@@ -247,8 +246,7 @@ td.expense {
 .modal {
     background: #F0F2f5;
     padding: 2.4rem;
-   
-    
+
 }
 
 /* Form ===================== */
