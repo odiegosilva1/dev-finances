@@ -17,3 +17,4 @@ const Modal = {
             .remove('active')
     }
 }
+
