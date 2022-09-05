@@ -240,7 +240,7 @@ td.expense {
 }
 
 .modal-overlay.active {
-    opacity: 1;NBHPHGL;flex-direction: ;
+    opacity: 1 flex-direction;
     visibility: visible;
 }
 
